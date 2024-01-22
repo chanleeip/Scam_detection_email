@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "project-phishing-algorithm"
+version = "0.1"
+description = ""
+authors = ["Nithinn Manickam <nithinmanickam@gmail.com>"]
+license = "GNU"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+requests = "^2.31.0"
+bs4 = "^0.0.1"
+poetry-plugin-dotenv = "^0.5.3"
+tqdm = "^4.66.1"
+typer = "^0.9.0"
+
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
